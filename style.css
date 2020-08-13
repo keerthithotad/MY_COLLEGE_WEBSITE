@@ -1,0 +1,212 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman", Times, serif;
+	background: url(https://www.sirmvit.edu/wp-content/uploads/2018/11/Sirmvit-About-Header-img.jpg);
+	background-repeat: none;
+	background-attachment: fixed;
+	background-position: center;
+}
+footer{
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    float: bottom;
+}
+header
+{
+	position: absolute;
+	top:0;
+	left: 0;
+	padding: 0 5px;
+	background: #262626;
+	width:100%;
+	box-sizing: border-box;
+}
+header .logo
+{
+	color:#fff;
+	height: 40px
+	line-height:50px;
+	font-size: 24px;
+	float:left;
+	font-weight: bold;
+}
+header .logo img{
+    height: 50px;
+}
+header nav
+{
+	float :right;
+}
+header nav ul
+{
+	margin: 0px;
+	padding: 0;
+	display: flex;
+}
+header nav ul li
+{
+	list-style: none;
+}
+header nav ul li a
+{
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	color:#fff;
+	text-decoration: none;
+	display:block;
+}
+header nav ul li a:hover,
+header nav ul li a.active
+{
+	color:#fff;
+	background: #2196f3;
+}
+.menu-toggle
+{
+	color:#fff;
+	float: right;
+	line-height: 50px;
+	font-size: 24px;
+	cursor:pointer;
+	display:none;
+}
+@media(max-width: 991px)
+{
+	header
+	{
+		padding: 0 20px;
+	}
+	.menu-toggle
+	{
+		display: block;
+	}
+	header nav
+	{
+		position: absolute;
+		width: 100%;
+		height: calc(100vh - 50px);
+		background: #333;
+		top:50px;
+		left:-100%;
+		transition:0.5s;
+	}
+	header nav.active
+	{
+		left: 0;
+	}
+	header nav ul
+	{
+		display: block;
+		text-align: center;
+
+	}
+	header nav ul li a
+	{
+		border-bottom: 1px solid rgba(0,0,0,.2);
+	}
+}
+
+/*================Navigation=============*/
+.container{
+	margin: 100px 100px;
+}
+.content-container{
+	border-top-right-radius: 10px;
+    margin: 50px 100px;
+    padding-bottom: 100px;
+    
+}
+.w100{
+    width:100%;
+}
+hr{
+    border-top:1px solid #000;
+}
+.box{
+    
+    margin: 30px 15px;
+    background: #E6E6FA;
+    border: 4px solid;
+    padding:25px 25px 25px 25px;
+    outline-style: double;
+    outline-width: 5px;
+}
+#rcorners2 {
+  float: right;
+  border-radius: 15px;
+  border: 2px solid ;
+  padding: 10px;
+  width: 300px;
+  height: 210px;
+}
+#rcorners3 {
+  float:left;
+  border-radius: 15px;
+  border: 2px solid;
+  padding: 10px;
+  margin-right:10px;
+  width: 300px;
+  height: 140px;
+}
+#rcorners4 {
+  float:right;
+  border-radius: 15px;
+  border: 2px solid;
+  padding: 10px;
+  width: 300px;
+  height: 150px;
+}
+h1 {
+  text-shadow: 2px 2px grey;
+  font-size: 40px;
+  text-align: center;
+}
+section{
+	display: block;
+}
+/*register.html*/
+.box4{   
+    margin: 50px 50px 50px;
+    margin-top: 100px;
+    background: #E6E6FA;
+    border: 4px solid;
+    padding:25px 25px 25px 25px;
+    outline-style: double;
+    outline-width: 5px;
+}
+/*contact.html*/
+.box3{
+    
+    margin: 100px 100px;
+    margin-top: 100px;
+    background: #E6E6FA;
+    border: 5px solid;
+    padding:25px 25px 25px 25px;
+    outline-style: double;
+    outline-width: 5px;
+}
+/*courses*/
+.content{
+    padding: 0 20px;
+}
+.box5{
+    
+    margin: 20px 15px;
+    background: #fff;
+    border: 2px solid #fff000;
+    width:415px;
+}
+/*footer*/
+.fa {
+  padding: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  size: 80px;
+}
